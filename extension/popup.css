@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(174, 224, 240); /* rgb(198, 231, 221); */
+    width: 600px;
+    height: 300px;
+    font-size: 12px;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.timer {
+    font-size: 26px;
+    /* font-weight: 500; */
+}
+
+.filter-div {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+}
+.filter-div.set1 {
+    float: left;
+    width: 15%; /* 45% */
+}
+.filter-div.set2 {
+    float: right;
+    width: 26%; /* 45% */
+}
+.section-div {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+    width: 48%; /* 45% */
+    height: 100px;
+}
+/*----------------------------------------------------------------
+.section-div.set1 {
+    float: left;
+}
+*/
+
+.search-div {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+    width:96%; /* 45% */
+}
+
+
+.scroll_box {
+    height: 200px;
+    overflow-y: auto;
+    /* background-color: #333;
+    color: #fff;*/
+}
+
+
+.input_search_str {
+    width: 60%;
+}
+.input_date_str {
+    width: 60px;
+}
+
+input#task-name-input {
+    width: 95%;
+}
+
+input[type="text"], input[type="email"] {
+    /* width: 60px; /* 80% */
+    padding: 5px;
+    margin: 3px 0;
+    border: 0;
+    border-radius: 4px;
+    background-color: #e2e2e2; /* #f2f2f2 */
+}
+
+input[type="checkbox"] {
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.task_link_blue {
+    color:blue;
+    /* text-decoration:underline; */
+    cursor:pointer;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+.task_link_red {
+    color:red;
+    /* text-decoration:underline; */
+    cursor:pointer;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+.task_link_black {
+    color:black;
+    /* text-decoration:underline; */
+    cursor:pointer;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+.stats_black {
+    color:black;
+    font-family: monospace, 'Courier New', Courier;
+}
+/*
+td:nth-child(2) { width: 20%; }
+td:nth-child(3) { width: 40%; } */
+
+
+
+/*
+// ----------------------------------------------------------------
+// date input styling
+// ----------------------------------------------------------------
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+*/
+input[type="date"]{
+    padding: 0;
+    margin: 1px 0;
+    /* box-sizing: border-box; */
+    background-color: #e2e2e2;
+    /* padding: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px; */
+    border: none;
+    outline:none; /*1px solid;*/
+    border-radius: 3px;
+}

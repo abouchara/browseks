@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BR-EKS-IT: EKS info on a browser</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <table width="400" border="1" >
+        <tr>
+            <td width="20%">Cluster</td>
+            <td width="70%" id="ClustersList"><select id="eks_cluster_list"><option>...</option></select></td>
+            <td><button id="btnGetClusters" align="center">Get</button></td>
+        </tr>
+        <tr><td>Node</td>       <td width="70%">...</td><td>Get</td></tr>
+        <tr><td>Namespace</td>  <td width="70%">...</td><td>Get</td></tr>
+        <tr><td>Pod</td>        <td width="70%">...</td><td>Get</td></tr>
+    </table>
+
+    <div id="output" ></div>
+    <div class="scroll_box"> <table id="table_01" ><tbody> </tbody> </table> </div>
+</body>
+</html>
